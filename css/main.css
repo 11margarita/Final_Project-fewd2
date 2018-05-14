@@ -77,5 +77,23 @@ html, body, div, p {
 
   .column.fifth:nth-child(4), .column.sixth:nth-child(4) {
     clear: both; } }
+@media screen and (min-width: 1200px) {
+  .column.half {
+    width: 50%; }
+
+  .column.third {
+    width: 33.3333%; }
+
+  .column.fourth {
+    width: 25%; }
+
+  .column.fifth, .column.fifth:nth-child(4), .column.fifth:nth-child(5) {
+    width: 20%; }
+
+  .column.sixth {
+    width: 16.6666%; }
+
+  .column.fifth:nth-child(4), .column.sixth:nth-child(4) {
+    clear: none; } }
 
 /*# sourceMappingURL=main.css.map */
