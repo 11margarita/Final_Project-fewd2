@@ -17,4 +17,23 @@ html, body, div, p {
   clear: both;
   display: table; }
 
+@media screen and (min-width: 450px) {
+  .column.half {
+    width: 100%; }
+
+  .column.third {
+    width: 100%; }
+
+  .column.fourth {
+    width: 50%; }
+
+  .column.fifth {
+    width: 50%; }
+
+  .column.sixth {
+    width: 50%; }
+
+  .column.fourth:nth-child(odd), .column.fifth:nth-child(odd), .column.sixth:nth-child(odd) {
+    clear: both; } }
+
 /*# sourceMappingURL=main.css.map */
