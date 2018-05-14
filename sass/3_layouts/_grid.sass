@@ -50,3 +50,28 @@
         
     .column.sixth
         width: 50%
+        
+@media screen and (min-width: 900px)
+    .column.half
+        width: 50%
+    
+    .column.third
+        width: 33.3333%
+    
+    .column.fourth
+        width: 25%
+        
+    .column.fifth
+        width: 33.333%
+        
+    .column.fifth:nth-child(4), .column.fifth:nth-child(5)
+        width: 50%
+        
+    .column.sixth
+        width: 33.333%
+    
+    .column.fourth:nth-child(odd), .column.fifth:nth-child(odd), .column.sixth:nth-child(odd)
+        clear: none
+        
+    .column.fifth:nth-child(4), .column.sixth:nth-child(4)
+        clear: both
