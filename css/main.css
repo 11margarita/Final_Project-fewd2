@@ -35,5 +35,23 @@ html, body, div, p {
 
   .column.fourth:nth-child(odd), .column.fifth:nth-child(odd), .column.sixth:nth-child(odd) {
     clear: both; } }
+@media screen and (min-width: 650px) {
+  .column.half {
+    width: 50%; }
+
+  .column.third {
+    width: 33.3333%; }
+
+  .column.fourth {
+    width: 50%; }
+
+  .column.fifth {
+    width: 50%; }
+
+  .column.fifth:nth-child(5) {
+    width: 100%; }
+
+  .column.sixth {
+    width: 50%; } }
 
 /*# sourceMappingURL=main.css.map */
