@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <title>project manager</title>
+     <link rel="stylesheet" href="css/main.css" type="text/css">
+    <script type="text/javascript" src="scripts/fontawesome-all.js"></script>
+    <script type="text/javascript" src="scripts/01.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+   <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+ <script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" type="text/css">
+   <link rel="stylesheet" href="scripts/jquery.mobile.icons.min.css" />
+  <script>
+     $(function() {
+    $( "#dialog" ).dialog();
+});
+    </script>
+    
+</head>
+
+<body>
+    
+     <main>
+     	<header>
+     	<img src="images/lamp.png" alt="logo design" id="logotop" />
+     		<h1 id="headline">Use your imagination....sky is the limit!!</h1>
+     		
+     	</header>
+     	
+     	<nav class="sitenav">
+           
+            <label for="showMenu" class="showMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label> 
+
+           <input type="checkbox" id="showMenu" role="button">
+
+            <ul class="menu">
+                <li id="buttonHome"><a href="index.html"><button>Home</button></a></li>
+                <li id="buttonAbout">
+                    <a href="pages/about.html"><button>About US</button></a>
+                    
+                <li id="buttonWork"><a href="pages/examples.html"><button>Our work</button></a></li>
+                <li id="buttonContent"> <a href="pages/content.html"><button>Content</button></a></li>
+                <li id="buttonContact">
+                    <a href="pages/contact.html"><button>Contact</button></a></li>
+                <button onclick="myFunction()" id="topDownloadButton">Download</button>
+            </ul>
+            
+
+        </nav>
+     <div class="container">   
+    <section data-role="button" data-dialog="true" data-close-btn="right">
+        <header data-role="header" id="whoweare">
+            <h2>Who we are</h2>
+        </header>
+       <div id="content"> 
+        <main data-role="collapsible" class="ui-content">
+            <h1>Graphic Designer</h1>
+           
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur doloribus laudantium nobis, in facilis. Magni recusandae cupiditate laboriosam voluptatibus tempore soluta aperiam reiciendis quod sunt voluptate nobis, dolore omnis, libero!</p>
+        </main>
+         <main data-role="collapsible" class="ui-content">
+            <h1>Web Developer</h1>
+           
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur doloribus laudantium nobis, in facilis. Magni recusandae cupiditate laboriosam voluptatibus tempore soluta aperiam reiciendis quod sunt voluptate nobis, dolore omnis, libero!</p>
+        </main>
+          <main data-role="collapsible" class="ui-content">
+            <h1>Content Manager</h1>
+           
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur doloribus laudantium nobis, in facilis. Magni recusandae cupiditate laboriosam voluptatibus tempore soluta aperiam reiciendis quod sunt voluptate nobis, dolore omnis, libero!</p>
+        </main>
+         <main data-role="collapsible" class="ui-content">
+            <h1>Integrator</h1>
+           
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur doloribus laudantium nobis, in facilis. Magni recusandae cupiditate laboriosam voluptatibus tempore soluta aperiam reiciendis quod sunt voluptate nobis, dolore omnis, libero!</p>
+        </main>
+        </div>
+    </section>
+         <!---------------------------------end of about us-----------------------------------------> 
+		<header class="main-header clearfix">
+			<img class="logo" src="images/camera.svg">
+			<h1 class="name">
+			Images </h1>
+			<h2>You can use different styles to give more interactivity on your dream website</h2>
+		</header>
+       
+            <div>
+            <h4>Overlay images with some text </h4>
+        </div>
+           
+            <div class="content clearfix">
+			<!-- img with overlay -->
+			<div class="photo-container">
+			
+				<div class="photo">
+				  <img src="images/01.jpg" alt="An awkward horse head">	
+				  <div class="photo-overlay">
+					  <h3>Overlay text</h3>
+					  <p>Images can reflect your blurb modules that gives more interaction with your user</p>
+					</div>
+				</div>
+				<a href="#" class="button">Read More</a>
+			</div>
+
+			<div class="photo-container">
+				<div class="photo">
+				  <img src="images/02.jpg" alt="The ultimate fixie bike">	
+				  <div class="photo-overlay">
+					  <h3>Overlay text</h3>
+					  <p>Images can reflect your blurb modules that gives more interaction with your user</p>
+					</div>
+				</div>
+				<a href="#" class="button">Read More</a>
+			</div>
+
+			<div class="photo-container">
+				<div class="photo">
+				  <img src="images/03.jpg" alt="Real vines, not the internet ones">	
+				  <div class="photo-overlay">
+					  <h3>Overlay text</h3>
+					  <p>Images can reflect your blurb modules that gives more interaction with your user</p>
+					</div>
+				</div>
+				<a href="#" class="button">Read More</a>
+			</div>	
+
+        </div>
+       
+       <div>
+            <h4>Images with different borders and radius </h4>
+        </div>
+         
+        			<!-- translate -->
+        			
+         <div>
+            <h4>Slide in text</h4>
+        </div>
+            <div class="content clearfix">
+
+			<div class="photo-container">
+				<div class="photo slide">
+				  <img src="../images/01.jpg" alt="Going step by step">	
+				  <div class="photo-overlay">
+					  <h3>Slide In</h3>
+					  <p>Great image effect</p>
+						<a href="#" class="button">download</a>
+					</div>
+				</div>
+			</div>	
+
+			<div class="photo-container">
+				<div class="photo slide">
+				  <img src="../images/02.jpg" alt="The Brooklyn Bridge">	
+				  <div class="photo-overlay">
+					  <h3>Slide In</h3>
+					  <p>Great image effect</p>
+						<a href="#" class="button">download</a>
+					</div>
+				</div>
+			</div>	
+
+			<div class="photo-container">
+				<div class="photo slide">
+				  <img src="../images/03.jpg" alt="A hot air balloon">	
+				  <div class="photo-overlay">
+					  <h3>Slide In</h3>
+					  <p>Great image effect</p>
+						<a href="#" class="button">download</a>
+					</div>
+				</div>
+			</div>	
+        </div>
+             <a href="pages/images.html" ><button id="continue">Keep looking here...</button></a>
+             <!---------------------------------end of images-----------------------------------------> 
+                          <header class="main-header clearfix">
+			<img class="logo1" src="images/video_btn.gif">
+			<h1 class="name">
+			Videos</h1>
+			<h2>Help your site with these unique videos</h2>
+		</header>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/zrFSIs4cbjM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/a2UnYs9AA_M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <!---------------------------------end of videos-----------------------------------------> 
+                                 
+             <div>
+             
+              <div class="container">
+		<header class="main-header clearfix">
+			<img class="logo1" src="images/images.jpg">
+			<h1 class="name">
+			Grid </h1>
+			<h2>You can use different styles of grid to make your website responsive and match to all kind of layout</h2>
+		</header>
+                  <div>
+            <h4>One Column</h4>
+        </div>
+        <!-- one column -->
+        <div class="row">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse rem, deserunt id, quam harum culpa! Eos quaerat ut tenetur illo distinctio assumenda facere incidunt vitae quisquam culpa dicta molestias quod alias impedit ipsa consequuntur dolore esse quia corrupti a optio, molestiae nihil deserunt, error possimus. Perferendis et, veritatis laborum sed corporis voluptatem, ea officiis, commodi perspiciatis tempora eius temporibus enim alias aspernatur deserunt. Non sapiente nemo, veritatis aperiam ut optio. Maxime quaerat ullam porro repellat libero doloremque suscipit consectetur aut est molestias eum sint, rem, voluptatem cumque, sed soluta. Recusandae accusamus repudiandae nulla nostrum, explicabo alias accusantium sint!</p>
+        </div>
+        <div>
+            <h4>Two Columns</h4>
+        </div>
+        <!-- two columns -->
+        <div class="row">
+            <div class="column half">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolor labore saepe nostrum sed magni fugit voluptatibus alias quas voluptate illo, ipsam soluta amet neque doloribus quasi vel officiis. Officiis quae facilis accusantium cumque, odit adipisci ratione reprehenderit nam eaque minus asperiores sed molestias totam veniam, quasi quibusdam, alias iste nulla ab ipsum magnam molestiae dolorum voluptatem! Dignissimos, reprehenderit nobis aliquam esse deserunt nostrum tenetur assumenda deleniti earum perferendis modi nam sunt officiis hic fugit, repellat voluptatum pariatur commodi tempora at. Commodi qui placeat, ad vitae autem harum soluta, esse optio doloremque saepe aut voluptatum quia eius amet sint provident!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolor labore saepe nostrum sed magni fugit voluptatibus alias quas voluptate illo, ipsam soluta amet neque doloribus quasi vel officiis. Officiis quae facilis accusantium cumque, odit adipisci ratione reprehenderit nam eaque minus asperiores sed molestias totam veniam, quasi quibusdam, alias iste nulla ab ipsum magnam molestiae dolorum voluptatem! Dignissimos, reprehenderit nobis aliquam esse deserunt nostrum tenetur assumenda deleniti earum perferendis modi nam sunt officiis hic fugit, repellat voluptatum pariatur commodi tempora at. Commodi qui placeat, ad vitae autem harum soluta, esse optio doloremque saepe aut voluptatum quia eius amet sint provident!</p>
+            </div>
+
+            <div class="column half">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolor labore saepe nostrum sed magni fugit voluptatibus alias quas voluptate illo, ipsam soluta amet neque doloribus quasi vel officiis. Officiis quae facilis accusantium cumque, odit adipisci ratione reprehenderit nam eaque minus asperiores sed molestias totam veniam, quasi quibusdam, alias iste nulla ab ipsum magnam molestiae dolorum voluptatem! Dignissimos, reprehenderit nobis aliquam esse deserunt nostrum tenetur assumenda deleniti earum perferendis modi nam sunt officiis hic fugit, repellat voluptatum pariatur commodi tempora at. Commodi qui placeat, ad vitae autem harum soluta, esse optio doloremque saepe aut voluptatum quia eius amet sint provident!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolor labore saepe nostrum sed magni fugit voluptatibus alias quas voluptate illo, ipsam soluta amet neque doloribus quasi vel officiis. Officiis quae facilis accusantium cumque, odit adipisci ratione reprehenderit nam eaque minus asperiores sed molestias totam veniam, quasi quibusdam, alias iste nulla ab ipsum magnam molestiae dolorum voluptatem! Dignissimos, reprehenderit nobis aliquam esse deserunt nostrum tenetur assumenda deleniti earum perferendis modi nam sunt officiis hic fugit, repellat voluptatum pariatur commodi tempora at. Commodi qui placeat, ad vitae autem harum soluta, esse optio doloremque saepe aut voluptatum quia eius amet sint provident!</p>
+            </div>
+        </div>
+                   <div>
+            <h4>Three Columns</h4>
+        </div>
+        <!-- three columns -->
+        <div class="row">
+            <div class="column third">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolor labore saepe nostrum sed magni fugit voluptatibus alias quas voluptate illo, ipsam soluta amet neque doloribus quasi vel officiis. Officiis quae facilis accusantium cumque, odit adipisci ratione reprehenderit nam eaque minus asperiores sed molestias totam veniam, quasi quibusdam, alias iste nulla ab ipsum magnam molestiae dolorum voluptatem! Dignissimos, reprehenderit nobis aliquam esse deserunt nostrum tenetur assumenda deleniti earum perferendis modi nam sunt officiis hic fugit, repellat voluptatum pariatur commodi tempora at. Commodi qui placeat, ad vitae autem harum soluta, esse optio doloremque saepe aut voluptatum quia eius amet sint provident!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolor labore saepe nostrum sed magni fugit voluptatibus alias quas voluptate illo, ipsam soluta amet neque doloribus quasi vel officiis. Officiis quae facilis accusantium cumque, odit adipisci ratione reprehenderit nam eaque minus asperiores sed molestias totam veniam, quasi quibusdam, alias iste nulla ab ipsum magnam molestiae dolorum voluptatem! Dignissimos, reprehenderit nobis aliquam esse deserunt nostrum tenetur assumenda deleniti earum perferendis modi nam sunt officiis hic fugit, repellat voluptatum pariatur commodi tempora at. Commodi qui placeat, ad vitae autem harum soluta, esse optio doloremque saepe aut voluptatum quia eius amet sint provident!</p>
+            </div>
+
+            <div class="column third">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolor labore saepe nostrum sed magni fugit voluptatibus alias quas voluptate illo, ipsam soluta amet neque doloribus quasi vel officiis. Officiis quae facilis accusantium cumque, odit adipisci ratione reprehenderit nam eaque minus asperiores sed molestias totam veniam, quasi quibusdam, alias iste nulla ab ipsum magnam molestiae dolorum voluptatem! Dignissimos, reprehenderit nobis aliquam esse deserunt nostrum tenetur assumenda deleniti earum perferendis modi nam sunt officiis hic fugit, repellat voluptatum pariatur commodi tempora at. Commodi qui placeat, ad vitae autem harum soluta, esse optio doloremque saepe aut voluptatum quia eius amet sint provident!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolor labore saepe nostrum sed magni fugit voluptatibus alias quas voluptate illo, ipsam soluta amet neque doloribus quasi vel officiis. Officiis quae facilis accusantium cumque, odit adipisci ratione reprehenderit nam eaque minus asperiores sed molestias totam veniam, quasi quibusdam, alias iste nulla ab ipsum magnam molestiae dolorum voluptatem! Dignissimos, reprehenderit nobis aliquam esse deserunt nostrum tenetur assumenda deleniti earum perferendis modi nam sunt officiis hic fugit, repellat voluptatum pariatur commodi tempora at. Commodi qui placeat, ad vitae autem harum soluta, esse optio doloremque saepe aut voluptatum quia eius amet sint provident!</p>
+            </div>
+            
+            <div class="column third">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolor labore saepe nostrum sed magni fugit voluptatibus alias quas voluptate illo, ipsam soluta amet neque doloribus quasi vel officiis. Officiis quae facilis accusantium cumque, odit adipisci ratione reprehenderit nam eaque minus asperiores sed molestias totam veniam, quasi quibusdam, alias iste nulla ab ipsum magnam molestiae dolorum voluptatem! Dignissimos, reprehenderit nobis aliquam esse deserunt nostrum tenetur assumenda deleniti earum perferendis modi nam sunt officiis hic fugit, repellat voluptatum pariatur commodi tempora at. Commodi qui placeat, ad vitae autem harum soluta, esse optio doloremque saepe aut voluptatum quia eius amet sint provident!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolor labore saepe nostrum sed magni fugit voluptatibus alias quas voluptate illo, ipsam soluta amet neque doloribus quasi vel officiis. Officiis quae facilis accusantium cumque, odit adipisci ratione reprehenderit nam eaque minus asperiores sed molestias totam veniam, quasi quibusdam, alias iste nulla ab ipsum magnam molestiae dolorum voluptatem! Dignissimos, reprehenderit nobis aliquam esse deserunt nostrum tenetur assumenda deleniti earum perferendis modi nam sunt officiis hic fugit, repellat voluptatum pariatur commodi tempora at. Commodi qui placeat, ad vitae autem harum soluta, esse optio doloremque saepe aut voluptatum quia eius amet sint provident!</p>
+            </div>
+        </div>
+                 <button id="continue"><a href="pages/grid.html" >Keep looking here...</a></button>
+             </div>
+             <!---------------------------------end of grid-----------------------------------------> 
+	</div>
+        <header class="main-header clearfix">
+			<img class="logo1" src="images/social-media-icons.png">
+			<h1 class="name">
+			Icons on any occasion</h1>
+			<h2>Enjoy the icons for your social networks and express your page with a better view</h2>
+		</header>
+         <p style="color:wheat;font-size:55px;text-align:center;">Select and copy a code of the Icon you would like to use</p>
+        <div id="dialog" title="Basic dialog">
+    <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+</div>
+       
+
+<center>
+<p id="p1">This is  TEXT 1</p>
+<p id="p2">This is TEXT 2</p><br/>
+
+<button onclick="copyToClipboard('#p1')">Copy TEXT 1</button>
+<button onclick="copyToClipboard('#p2')">Copy TEXT 2</button>
+
+<br/><br/><input class="textBox" type="text" id="" placeholder="Dont belive me?..TEST it here..;)" />
+</center>
+         <span class="icon has-text-info">
+  <i class="fas fa-info-circle"></i>
+</span>blabla
+<span class="icon has-text-success">
+  <i class="fas fa-check-square"></i>
+</span>
+<span class="icon has-text-warning">
+  <i class="fas fa-exclamation-triangle"></i>
+</span>
+<span class="icon has-text-danger">
+  <i class="fas fa-ban"></i>
+</span>
+         <div id="icon-social">
+                    <a href="https://facebook.com" id="face" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://instagram.com/" id="twit" target="_blank"><i class="fab fa-instagram square"></i></a>
+                    <a href="https://www.pinterest.com" id="pint" target="_blank"><i class="fab fa-pinterest-square"></i></a>
+                </div>
+                                 <button id="continue"><a href="pages/grid.html" >Keep looking here...</a></button>
+     <!---------------------------------end of icons-----------------------------------------> 
+                     
+                                  <header class="main-header clearfix">
+			<img class="logo1" src="images/font.jpg">
+			<h1 class="name">
+			Fonts</h1>
+			<h2>Style your page with a different fonts... It looks better!</h2>
+		</header>
+<div class="header">
+           <h1>Heading h1 <code>default</code></h1>
+           <h2 class="fc-bla ta-c">Heading h2 <code>class="ta-c fc-bla"</code></h2>
+           <h3 class="fc-blu ta-r">Heading h3; class="ta-r fc-blu"</h3>
+           <h4 class="fc-red">Heading h4;  class="fc-red"</h4>
+           <h5 class="fc-yel">Heading h5; class="fc-yel"</h5>
+           <h6 class="fc-gre">Heading h6; class="fc-gre"</h6>
+       </div>
+       <hr>
+       <div class="main">
+           <div class="backgroundColors">
+               <h2>Background Colors bc</h2>
+               <p>Background color: default Style</p>
+                <p class="bc-whi">Background color: white; class="bc-whi"</p>
+                <p class="bc-gra">Background color: gray; class="bc-gra"</p>
+                <p class="bc-bla">Background color: black; class="bc-bla"</p>
+                <p class="bc-blu">Background color: blue; class="bc-blu"</p>
+                <p class="bc-yel">Background color: yellow; class="bc-yel"</p>
+                <p class="bc-gre">Background color: green; class="bc-gre"</p>
+           </div>
+           <hr>
+           <div class="fontFamily">
+               <h2>Font Families ff</h2>
+               <p>Default font family</p>
+                <p class="ff-ari">Arial font family; class="ff-ari"</p>
+                <p class="ff-hel">Helvetica font family; class="ff-hel"</p>
+                <p class="ff-tim">Times New Roman family; class="ff-tim"</p>
+                <p class="ff-geo">Georgia font family; class="ff-geo"</p>
+                <p class="ff-pal">Palatino font family; class="ff-pal"</p>
+                <p class="ff-ver">Verdana font family; class="ff-ver"</p>
+                <p class="ff-cou">Courier font family; class="ff-cou"</p>
+           </div>
+           <hr>
+          <button id="continue"><a href="pages/fonts.html" >Keep looking here...</a></button>
+    <!---------------------------------end of fonts-----------------------------------------> 
+    <footer id="whoweare"> &copy; 2018</footer>
+         </div>
+         </div>
+     </main>
+     
+</body>
+</html>

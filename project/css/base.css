@@ -1,0 +1,158 @@
+body {
+    font: 14px/1.6 "Lucida Sans", "Lucida Grande", sans-serif;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 0 11px;
+}
+*:focus {
+    outline: none;
+    background-color: #bbdfd9;
+}
+::-webkit-input-placeholder {
+    color: #0d6c5b;
+}
+:-ms-input-placeholder {
+    color: #0d6c5b;
+}
+::-moz-placeholder {
+    color: #0d6c5b;
+}
+::placeholder {
+    color: #0d6c5b;
+}
+.contact_form {
+    margin: 0 -11px;
+}
+fieldset {
+    border: none;
+    border-top: solid 1px #0d6c5b;
+}
+legend {
+    font-weight: bold;
+    padding: 0 .25em;
+    color: #0d6c5b;
+}
+.contact_form ul {
+    list-style-type: none;
+    padding: 0;
+}
+.contact_form li {
+    padding: .85em;
+    margin: 0;
+    border-bottom: solid 1px #dfdfdf;
+}
+.contact_form li:last-child {
+    border: none;
+}
+.contact_form label {
+    min-width: 15%;
+    margin-top: 3px;
+    display: inline-block;
+    padding: 3px 0;
+}
+.contact_form label[for="submit"] {
+    display: none;
+}
+.contact_form input {
+    height: 20px;
+}
+ {
+    height: 70px;
+}
+.contact_form input, .contact_form textarea {
+    border: solid 1px #999;
+    box-shadow: 0 0 3px #ccc, 0 10px 15px #dedede inset;
+    padding: 5px 8px;
+    border-radius: 5px;
+    width: 95%;
+    min-width: 220px;
+} 
+.contact_form input:focus, .contact_form textarea:focus {
+    box-shadow: 0 0 3px #999, 0 10px 15px rgba(255,255,255,.5) inset;
+}
+.contact_form button.submit {
+    background-color: #0d6c5b;
+    background: linear-gradient(to top, #bbdfd9, #0d6c5b);
+    color: #fff;
+    border: solid 1px #0d6c5b;
+    border-radius: 5px;
+    padding: 5px 8px;
+    font-weight: bold;
+}
+
+/* valiadtion styles */
+input:required, textarea:required {
+    background: url(../images/aster.png) no-repeat 98% 7px;
+    background-size: 3%;
+} 
+input:focus:invalid, textarea:focus:invalid {
+    background: url(../images/error.png) no-repeat 98% 7px;
+    background-size: 4%;
+    border-color: #b03535;
+    background-color: #bbdfd9;
+}
+input:required:valid, textarea:required:valid {
+    border-color: #0d6c5b;
+}
+p.req {
+    color: #666;
+    font-size: 80%;
+    margin: -5px 0 .75em;
+    text-align: right;
+    padding-right: .85em;
+}
+p.req img {
+    width: 3%;
+}
+@media screen and (min-width: 450px) {
+    .contact_form input, .contact_form textarea {
+        width: 75%;
+    }
+    .contact_form label {
+        text-align: right;
+    }
+    label[for="msg"] {
+        vertical-align: top;
+    }
+    .contact_form label[for="submit"] {
+        display: inline-block;
+    }
+} /* end min-width:450 */
+
+@media screen and (min-width: 600px) {
+    .contact_form label {
+        display: block;
+        text-align: left;
+    }
+     .contact_form li {
+        width: 50%;
+        border-bottom: none;
+         padding: .85em 0;
+    }
+    .contact_form li:nth-child(4) {
+        float: right;
+        margin-top: -261px;
+    }
+    .contact_form textarea {
+        height: 194px;
+    }
+    .contact_form input, .contact_form textarea {
+        width: 85%;
+    }
+    .contact_form li:last-child {
+        text-align: right;
+        width: 95%;
+    }
+    p.req {
+        text-align: left;
+        width: 50%;
+        display: inline-block;
+        float: left;
+    }
+   
+}
+
+
+
+
+
