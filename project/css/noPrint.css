@@ -1,0 +1,15 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+@media print {
+  .noPrint { display: none; }
+  p { page-break-inside: avoid; }
+}
+
+
