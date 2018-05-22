@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="../css/mainForm.css">
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        
+    </head>
+    <body>
+
+      <form action="index.html" method="post">
+        
+        <h1>Form</h1>
+        
+        <fieldset>
+          
+          <legend>Your can collect basic personal info using our form text boxes</legend>
+          
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="user_name">
+          
+          <label for="mail">Your Email:</label>
+          <input type="email" id="mail" name="user_email">
+          
+            <label for="bio">Text boxes:</label>
+          <textarea id="bio" name="user_text">Write something here</textarea>
+          
+          
+          
+        </fieldset>
+        
+        <fieldset>
+          
+          <legend>You can use drop Radio Buttons, Drop Down Lists and Checkboxes</legend>
+          
+          <label>Radio buttons can help navigate</label>
+          <input type="radio" id="check1" value="check1" name="user_check1"><label for="check1" class="light">Check 1</label><br>
+          
+          <input type="radio" id="check2" value="check2" name="user_check2"><label for="check2" class="light">Check 2</label><br>
+         <input type="radio" id="check1" value="check1" name="user_check1"><label for="check1" class="light">Check 3</label><br>
+         <input type="radio" id="check1" value="check1" name="user_check1"><label for="check1" class="light">Check 1</label><br>
+          
+          <label for="job">Drop Down Lists with sub groups:</label>
+          <select id="job" name="user_job">
+            <optgroup label="Group 1">
+              <option value="subgroup 1">Subgroup 1</option>
+              <option value="subgroup 2">subgroup 2</option>
+              <option value="subgroup 3">subgroup 3</option>
+              <option value="subgroup 4">subgroup 4</option>
+              <option value="subgroup 5">subgroup 5</option>
+            </optgroup>
+            <optgroup label="Group 2">
+              <option value="subgroup 1">Subgroup 1</option>
+              <option value="subgroup 2">Subgroup 2</option>
+              <option value="subgroup 3">Subgroup 3</option>
+            </optgroup>
+            <optgroup label="Group 3">
+              <option value="subgroup 1">Subgroup 1</option>
+              <option value="subgroup 2">Subgroup 2</option>
+            </optgroup>
+          </select>
+        
+          <label>Check box:</label>
+          <input type="checkbox" id="check01" value="check01" name="user_check"><label class="light" for="check01">Option 1</label><br>
+          <input type="checkbox" id="check01" value="check01" name="user_check"><label class="light" for="check01">Option 2</label><br>
+          <input type="checkbox" id="check01" value="check01" name="user_check"><label class="light" for="check01">Option 3</label><br>
+          <input type="checkbox" id="check01" value="check01" name="user_check"><label class="light" for="check01">Option 4</label><br>
+          
+        </fieldset>
+          
+        <button type="submit">Submit</button>
+        
+      </form>
+      
+    </body>
+</html>

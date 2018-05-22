@@ -1,0 +1,302 @@
+header, section, footer, aside, article, figure, img {
+	display: block;
+}
+* {
+	padding: 0;
+	margin: 0;
+    box-sizing: box;
+}
+body {
+	background-color: #42413C;
+    font: 14px/1.4 Verdana, sans-serif;
+    color: #000;
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+header {
+    background-color: #34D2DD;
+    padding: 0;
+    text-align: center;
+}
+header h1 {
+	font-size: 4em;
+}
+.formHeader {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h3 {
+    text-align: center;
+    margin: 0.35em 1em 1.5em;
+    font-size: 1em;
+    font-weight: 400;
+}
+h1, h2, h3, legend {
+    color: rgba(0, 0, 0, 0.7);
+}
+.formHeader:after {
+    
+    display: block;    
+}
+
+figure {
+    background-size: contain;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0.3em;
+}
+
+figcaption {
+    font-size: 10px;
+    color: #fff;
+    font-style: italic;
+    padding: 0 15px;
+    text-align: center;
+}
+
+
+h1, h2 {
+    font-family: 'Freckle Face', sans-serif;
+}
+
+h1, h2,  p {
+	padding-right: 15px;
+	padding-left: 15px; 
+}
+
+p {
+	padding-bottom: 15px;
+}
+
+#wrapper {
+	margin: 0 auto; 
+	background-image: linear-gradient(to bottom, #5ee7df 0%, #b490ca 100%);
+}
+
+a:link, a:visited {
+	color: #0B486B;
+	text-decoration: underline; 
+}
+a:hover, a:active { 
+	text-decoration: none;
+}
+#wrapper {
+	margin: 0 auto; 
+	background-color: #3B8686;
+}
+
+aside {
+	background-color: #fff;
+	padding: 10px 0;
+}
+aside h1 {
+    padding: 0.5em;
+	font-size: 1.5em;
+    border-bottom: solid 2px #b490ca;
+    color: #919FD1;
+}
+
+aside h2 {
+    font-size: 1.4em;
+    color: #919FD1;
+}
+ aside h2:nth-child(2){
+    margin-top: 10px;
+}
+
+/*form styles*/
+
+fieldset {
+    padding: 2em;
+    margin: 1em 2em;
+    border: 1px solid #fff;
+}
+
+legend {
+    padding: 0 5px;
+    font-family: 'Freckle Face', sans-serif;
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+label {
+    width: 175px;
+    text-align: right;
+    vertical-align: top;
+    font-style: italic;
+}
+
+.radioList li:not(:first-child) {
+    color: #2F4F4F;
+}
+
+input {
+    margin-right: 5px;
+}
+
+ul.radioList, ul.list, ul.tAreas {
+    list-style-type: none;
+}
+
+ul.radioList, ul.list {
+    margin-bottom: 15px;
+}
+
+.list li, .radioList li, .tAreas li {
+    margin: 0 5% 2%;   
+}
+
+.list li input, .list li select {
+    margin-top: 0.2em;
+    height: 30px;
+    width: 100%;
+    display: block;
+}
+
+
+.list li:nth-child(n+7), .buttons li {
+    height: 30px;
+    display: inline-block;
+}
+
+.list li:nth-last-child(2) {
+    width: 30%;
+}
+
+.list li:last-child {
+    width: 50%;
+    float: right;
+}
+
+.list label.req:after {
+  content: "*";
+  color: #ff6666;
+}
+
+input, textarea {
+  border-radius: 7px;
+  padding-left: 1em;
+}
+
+textarea {
+    padding-top: 7px;
+}
+
+.radioList:last-child {
+    margin-top: 0px;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 5px;
+}
+.buttons {
+    text-align: center;
+    width: 100%;
+    margin: 25px 0;
+}
+input[type=submit], input[type=reset] {
+    padding: 5px 15px; 
+    cursor: pointer;
+    font-size: 1em;
+    transition: all 150ms linear;
+    background-color: #ff6666;
+    color: #fff;
+    border: 1px solid white;
+}
+
+input[type=reset] {
+    background-color: #5F6A6A;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    color: black;
+    border: 1px solid #ccc;
+    transition: all 150ms linear;
+    opacity: .7;
+}
+
+footer {
+	padding: 10px 0;
+	background-color: #8AA4D2;
+}
+
+
+@media screen and (min-width:600px) {
+    #container {
+        max-width: 960px;
+    }
+    
+    header h1 {
+        font-size: 3em;
+        text-align: left;
+    }
+    section {
+        overflow: hidden;
+    }
+    form {
+        max-width: 62%;
+    }
+
+    aside {
+        max-width: 38%;
+        padding-right: 5%;
+    }
+    form, aside {
+        float: left; 
+        margin-bottom: -99999px;
+        padding-bottom: 99999px;
+    }
+    aside p, h1, h2 {
+        padding-right: 25px;
+    }
+    form h1 {
+        font-size: 2em;
+        text-align: left;
+    }
+    form h2 {
+        font-size: 1.4em;
+    }
+
+    figcaption {
+        text-align: left;
+    }
+    footer {
+        clear: both;
+        position: relative;
+    }
+}
+    @media screen and (min-width:768px) {
+    .list li {
+        display: inline-block;
+        width: 39%;     
+        }
+    .list li:nth-child(n+7) {
+    width: 39%;  
+    display: inline-block;
+        }
+    .rl1, .rl2 {    
+        width: 48%;
+        float: left;
+        }
+        .rl2 {
+            border-left: 1px solid #fff;
+            padding-left: 4%;
+        } 
+        .rl3 li:nth-child(n+2){
+        width: 15%;
+        float: left;   
+}
+        .tAreas {
+            clear: both;
+        }
+}
