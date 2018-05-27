@@ -1445,3 +1445,68 @@ ul li {
         background-attachment: scroll;
     }
 }
+
+
+
+
+/*About Page CSS Style*/
+
+.hero-image-about {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(101, 125, 136, 0.6)), url("../images/03slide.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    background-attachment: fixed;
+
+ 
+}
+
+.flex_about{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*Sticky footer*/
+.about_footer{
+     height: 50px;
+}
+
+.about_content {
+    min-height: calc(100vh - 50px);
+}
+
+@media (min-width: 769px){
+    .photo-container-about {
+    width: 300px;
+    height: 400px;
+	}
+    
+    .flex_about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+}
+@media (min-width: 1050px) { 
+	.photo-container-about {
+    width: 200px;
+    height: 250px;
+	}
+    
+    .flex_about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+}
+
+
+
+
+
+
