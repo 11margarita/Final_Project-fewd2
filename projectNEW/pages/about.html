@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     
-    <title>project manager</title>
+    <title>About Us</title>
      <link rel="stylesheet" href="../css/main.css" type="text/css">
+<!--
    <script
   src="https://code.jquery.com/jquery-2.2.4.min.js"
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
+-->
  <script src="../scripts/jquery.mobile-1.4.5.min.js"></script>
     <link rel="stylesheet" href="../css/jquery.mobile-1.4.5.css" type="text/css">
+    
    <link rel="stylesheet" href="../scripts/jquery.mobile.icons.min.css" />
   
     
@@ -19,10 +22,10 @@
 
 <body>
     
-     <main>
+     <main class="about_content clearfix">
      	<header>
      	<img src="../images/logo.png" alt="logo design" id="logotop" />
-     		<h1 id="headline">Use your imagination....sky is the limit!!</h1>
+     		<h1 id="headline"></h1>
      		
      	</header>
      	
@@ -50,6 +53,15 @@
             <button onclick="myFunction()" id="topDownloadButton">Download</button>
 
         </nav>
+     <div class="hero-image-about">
+
+      <div class="hero-text">
+        <h1 style="font-size:40px">About The Team</h1>
+        <h4>Together we can build future </h4>
+        <a href="#" class="button button-hero">Help Us</a>
+      </div>
+    </div>    
+        
     <div class="container">
         
     <h1>About Us</h1>
@@ -60,7 +72,9 @@
     <h2>Who we are</h2>
     <p>The group project have been created by collabiration of 4 people who trully care about future of our enviroment, human being and want to put a statement for helping non-profit organizations to reach thier missions and impact people lives.</p>
     
-     <div class="photo-container">
+    <div class="flex_about">
+    
+     <div class=" photo-container photo-container-about">
         <div class="photo">
             <img src="../images/antony_profile.jpg" alt="Anthony">	
                 <div class="photo-overlay">
@@ -71,7 +85,7 @@
         <h3>Anthony Larios</h3>
     </div>
     
-    <div class="photo-container">
+    <div class="photo-container photo-container-about">
         <div class="photo">
             <img src="../images/Danny_profile.jpg" alt="Danny">	
                 <div class="photo-overlay">
@@ -83,7 +97,7 @@
         <h3>Danny Vera</h3>
     </div>
    
-   <div class="photo-container">
+   <div class="photo-container photo-container-about">
         <div class="photo">
             <img src="../images/Margarita_profile.jpg" alt="Margarita">	
                 <div class="photo-overlay">
@@ -95,7 +109,7 @@
         <h3>Margarita Pinhas</h3>
     </div>
     
-    <div class="photo-container">
+    <div class="photo-container photo-container-about">
         <div class="photo">
             <img src="../images/Elvira_profile.jpg" alt="Elvira">	
                 <div class="photo-overlay">
@@ -108,10 +122,10 @@
     </div>
 
 
-        
-    </div>
+     </div> <!--  end of div grid_about   -->
+    </div> <!--  div class="container"-->
      </main>
-    <footer id="whoweare"> &copy; 2018</footer>
+    <footer id="whoweare" class="about_footer"> &copy; 2018</footer>
 
 </body>
 </html>
